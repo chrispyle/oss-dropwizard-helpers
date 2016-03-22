@@ -3,5 +3,7 @@
 
 ## What is it?
 
-
-
+A small library to make DropWizard easier to use. Specifically, we
+provide a class, ```ConfiguredCommandLineTool<>```, which helps with
+writing utilities which you can launch from a command line interface
+instead of the usual ```server``` command.
